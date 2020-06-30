@@ -1,8 +1,7 @@
 # testTal
-Curl command for publishing and linking terminologies.
+Curl command for publishing your terminologies.
 
 ```
-1. Publish your terminology
 curl -X POST --progress-bar \
     --verbose \
     -F 'upload=@simple1.tbx' \
@@ -11,13 +10,12 @@ curl -X POST --progress-bar \
     -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/iatesmall/' \
     "https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdftest/initialize"
     
-Check status at https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdftest/status?view=status
-```
-Curl command for publishing and linking terminologies.
+    After running command check status at https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdftest/status?view=status
 
 ```
-    
-2. Link your terminology with other terminology
+Curl command for linking  your terminology with other terminology.
+
+```
 curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql" -H "Content-Type: application/x-www-form-urlencoded" -X POST "https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdftest/link"
 
 Check status at https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdftest/status?view=status
