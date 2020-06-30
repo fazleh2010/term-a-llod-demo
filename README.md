@@ -1,4 +1,6 @@
 # testTal
+Curl command for publishing and linking terminologies.
+
 ```
 1. Publish your terminology
 curl -X POST --progress-bar \ --verbose \ -F 'upload=@solar.tbx' \ -F 'mapping=@mappings.default' \ -F 'graph=tbx2rdf_graph' \ -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/iatesmall/' \ "https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdftest/initialize"
@@ -6,7 +8,7 @@ curl -X POST --progress-bar \ --verbose \ -F 'upload=@solar.tbx' \ -F 'mapping=@
 curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql" -H "Content-Type: application/x-www-form-urlencoded" -X POST "https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdftest/link"
 ```
 
-Curl command for publishing and linking terminologies.
+Docker command to download and install image
 
 ---
 ```
@@ -14,6 +16,6 @@ Curl command for publishing and linking terminologies.
 2 . docker run fazleh/term-a-llod:latest (install the docker image)
 ```
 
-Docker command to download and install image
+
 
 ---
