@@ -1,6 +1,6 @@
 # testTal
-docker command
 
+Docker command to download and install image
 ```
 docker pull fazleh/term-a-llod:latest 
 docker run -p 8080:8080 -v ~/server/:/tmp/server/ -v ~/virtuoso_data/:/virtuoso_data/ -it term-a-llod:latest
@@ -23,18 +23,13 @@ curl -X POST --progress-bar \
 Curl command for linking  your terminology with other terminology.
 
 ```
-curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql" -H "Content-Type: application/x-www-form-urlencoded" -X POST "https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdftest/link"
+curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql" -H "Content-Type: application/x-www-form-urlencoded" -X POST "http://localhost:8080/link"
 
-Check status at https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdftest/status?view=status
+Check status at http://localhost:8080/status?view=status
 ```
 
-Docker command to download and install image
 
 ---
-```
-1.  docker pull fazleh/term-a-llod:latest (download docker image)
-2 . docker run fazleh/term-a-llod:latest (install the docker image)
-```
 
 
 
