@@ -4,11 +4,11 @@ Curl command for publishing your terminologies.
 ```
 curl -X POST --progress-bar \
     --verbose \
-    -F 'upload=@simple1.tbx' \
+    -F 'upload=@solar.tbx' \
     -F 'mapping=@mappings.default' \
     -F 'graph=tbx2rdf_graph' \
     -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/iatesmall/' \
-    "https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdftest/initialize"
+    "http://localhost:8080/initialize"
     
     After running command check status at https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdftest/status?view=status
 
