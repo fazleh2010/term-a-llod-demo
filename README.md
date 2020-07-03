@@ -1,4 +1,11 @@
 # testTal
+docker command
+
+```
+docker pull fazleh/term-a-llod:latest 
+docker run -p 8080:8080 -v ~/server/:/tmp/server/ -v ~/virtuoso_data/:/virtuoso_data/ -it term-a-llod:latest
+
+```
 Curl command for publishing your terminologies.
 
 ```
