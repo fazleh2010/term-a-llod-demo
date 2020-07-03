@@ -10,7 +10,7 @@ curl -X POST --progress-bar \
     -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/iatesmall/' \
     "http://localhost:8080/initialize"
     
-    After running command check status at https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdftest/status?view=status
+    After running command check status at http://localhost:8080/status?view=status
 
 ```
 Curl command for linking  your terminology with other terminology.
