@@ -4,8 +4,8 @@ The system suppose to be running only by docker pull and docker run. But current
 Run the following commands
 ```
 https://github.com/FrankGrimm/tbx2rdf_staging.git
-<!--- docker pull fazleh/term-a-llod:latest ---> 
-docker run -p 8080:8080 -v ~/server/:/tmp/server/ -v ~/virtuoso_data/:/virtuoso_data/ -it term-a-llod:latest
+docker build . -t term-a-llod:latest
+docker run -p 8080:8080 -v ~/server/:/tmp/server/ -it term-a-llod:latest
 
 ```
 Curl command for publishing your terminologies.
