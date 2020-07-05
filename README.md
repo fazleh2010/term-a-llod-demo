@@ -1,5 +1,5 @@
 # testTal
-The system suppose to be running only by docker pull and docker run. But currently it is not working like that. That is on progress.
+The system suppose to be running only by docker pull and docker run. But currently it is not working like that. Currently, it uses github. Completelty running from docker is on progress.
 
 Run the following commands
 ```
