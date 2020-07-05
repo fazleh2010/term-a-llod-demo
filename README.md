@@ -8,6 +8,8 @@ docker build . -t term-a-llod:latest
 docker run -p 8080:8080 -v ~/server/:/tmp/server/ -it term-a-llod:latest
 
 ```
+http://localhost:8080/status?view=status
+
 Curl command for publishing your terminologies.
 
 ```
