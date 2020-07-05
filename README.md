@@ -3,7 +3,7 @@ The system suppose to be running only by docker pull and docker run. But current
 
 Run the following commands
 ```
-https://github.com/FrankGrimm/tbx2rdf_staging.git
+git clone https://github.com/FrankGrimm/tbx2rdf_staging.git
 docker build . -t term-a-llod:latest
 docker run -p 8080:8080 -v ~/server/:/tmp/server/ -it term-a-llod:latest
 
