@@ -1,8 +1,10 @@
 # testTal
+The system suppose to be running only by docker pull and docker run. But currently it is not working like that. That is on progress.
 
-Docker command to download and install image
+Run the following commands
 ```
-docker pull fazleh/term-a-llod:latest 
+https://github.com/FrankGrimm/tbx2rdf_staging.git
+<!--- docker pull fazleh/term-a-llod:latest ---> 
 docker run -p 8080:8080 -v ~/server/:/tmp/server/ -v ~/virtuoso_data/:/virtuoso_data/ -it term-a-llod:latest
 
 ```
