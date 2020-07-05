@@ -16,12 +16,26 @@ curl -X POST --progress-bar \
     -F 'upload=@solar.tbx' \
     -F 'mapping=@mappings.default' \
     -F 'graph=tbx2rdf_graph' \
-    -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/iatesmall/' \
+    -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/YourNameSpace/' \
     "http://localhost:8080/initialize"
     
     After running command check status at http://localhost:8080/status?view=status
 
 ```
+Check that Virtuoso server is running.
+
+```
+1. Service status
+http://localhost:8080/status?view=status
+
+2. Check sparql
+
+3. Check the browser
+
+4. Search a terms
+
+```
+
 Curl command for linking  your terminology with other terminology.
 
 ```
