@@ -10,7 +10,7 @@ docker run -p 8080:8080 -v ~/server/:/tmp/server/ -it term-a-llod:latest
 ```
 http://localhost:8080/status?view=status
 
-Curl command for publishing your terminologies.
+Publishing your terminology.
 
 ```
 curl -X POST --progress-bar \
@@ -57,7 +57,7 @@ SELECT ?s ?p ?o WHERE {
 
 ```
 
-Curl command for linking  your terminology with other terminology.
+Linking your terminology with other terminology.
 
 ```
 curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql" -H "Content-Type: application/x-www-form-urlencoded" -X POST "http://localhost:8080/link"
