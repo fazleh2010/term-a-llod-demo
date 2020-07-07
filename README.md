@@ -17,17 +17,11 @@ Run the following commands
 ```
 docker pull fazleh/term-a-llod:latest
 docker run -p 8080:8080 -it term-a-llod:latest
-
+```
 check the status
 http://localhost:8080/status?view=status
-The snapshot is looks as follow: 
-[snapshot](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf)
-- [snapshot](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf) for a read-only instance providing [IATE](https://iate.europa.eu/)
-- [this link](https://webtentacle1.techfak.uni-bielefeld.de/tal_demo/status) for a non-persistent demo instance (limited resources and periodically reset)
-```
-- [snapshot](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf) for a read-only instance providing [IATE](https://iate.europa.eu/)
 
-Publishing your terminology.
+##Publishing your terminology.
 
 ```
 curl -X POST --progress-bar \
@@ -43,7 +37,12 @@ curl -X POST --progress-bar \
     the status will look like as follow:
 
 ```
-Check that Virtuoso server is running.
+ After running command check status at 
+    http://localhost:8080/status?view=status
+The system shanpshot after initialization
+    [snapshot](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf)
+
+##Check that Virtuoso server is running.
 
 ```
 1. Service status
