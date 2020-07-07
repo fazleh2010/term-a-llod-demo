@@ -88,7 +88,7 @@ SELECT ?s ?o WHERE {
     ?s ontolex:sameAs ?o .
 } LIMIT 5
 ```
-The system install and run document [link](https://github.com/fazleh2010/testTal/blob/master/Demo.pdf)
+The system snapshot can be seen from this [link](https://github.com/fazleh2010/testTal/blob/master/Demo.pdf)
 
 ---
 
