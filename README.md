@@ -22,8 +22,10 @@ check the status
 http://localhost:8080/status?view=status
 The snapshot is looks as follow: 
 [snapshot](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf)
+- [snapshot](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf) for a read-only instance providing [IATE](https://iate.europa.eu/)
+- [this link](https://webtentacle1.techfak.uni-bielefeld.de/tal_demo/status) for a non-persistent demo instance (limited resources and periodically reset)
 ```
-
+- [snapshot](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf) for a read-only instance providing [IATE](https://iate.europa.eu/)
 
 Publishing your terminology.
 
