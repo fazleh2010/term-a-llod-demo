@@ -1,14 +1,27 @@
 # testTal
-The system suppose to be running only by docker pull and docker run. But currently it is not working like that. Currently, it uses github. Completelty running from docker is on progress.
+prerequisite
+```
+install docker
+https://docs.docker.com/engine/install/
+
+check whether docker is running in your machine
+sudo docker run hello-world
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+....
+.....
+
+```
 
 Run the following commands
 ```
-git clone -b demo https://github.com/FrankGrimm/tbx2rdf_staging.git
-docker build . -t term-a-llod:latest
+docker pull fazleh/term-a-llod:latest
 docker run -p 8080:8080 -v ~/server/:/tmp/server/ -it term-a-llod:latest
 
-```
+check the status
 http://localhost:8080/status?view=status
+```
+
 
 Publishing your terminology.
 
