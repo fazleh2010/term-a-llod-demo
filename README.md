@@ -34,7 +34,9 @@ curl -X POST --progress-bar \
     -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/YourNameSpace/' \
     "http://localhost:8080/initialize"
     
-    After running command check status at http://localhost:8080/status?view=status
+    After running command check status at 
+    http://localhost:8080/status?view=status
+    the status will look like as follow:
 
 ```
 Check that Virtuoso server is running.
