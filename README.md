@@ -26,9 +26,9 @@ curl -X POST --progress-bar \
     -F 'graph=tbx2rdf_graph' \
     -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/YourNameSpace/' \
     "http://localhost:8080/initialize"
+    
+    After running command check status at http://localhost:8080/status?view=status 
 ```
-After running command check status at http://localhost:8080/status?view=status \
-The system looks like [this snapshot](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf)
 
 2. Sparql query your terminology
 ```
@@ -82,7 +82,7 @@ SELECT ?s ?p ?o WHERE {
     ?s ontolex:sameAs ?o .
 } LIMIT 5
 ```
-
+The system install and run document [link](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf)
 
 ---
 
