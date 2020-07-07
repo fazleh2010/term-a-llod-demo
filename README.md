@@ -1,4 +1,4 @@
-# testTal
+# Publish and link your terminology
 Prerequisite
 
 install docker
