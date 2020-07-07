@@ -60,7 +60,10 @@ SELECT ?s ?p ?o WHERE {
 Linking your terminology with other terminology.
 
 ```
-curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql" -H "Content-Type: application/x-www-form-urlencoded" -X POST "http://localhost:8080/link"
+curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql" \
+          -H "Content-Type: application/x-www-form-urlencoded" \
+          -X POST "http://localhost:8080/link"
+
 
 Check status at http://localhost:8080/status?view=status
 ```
