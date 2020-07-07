@@ -28,18 +28,12 @@ curl -X POST --progress-bar \
     -F 'graph=tbx2rdf_graph' \
     -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/YourNameSpace/' \
     "http://localhost:8080/initialize"
-    
+```
+
     After running command check status at 
-    http://localhost:8080/status?view=status
-    the status will look like as follow:
+    http://localhost:8080/status?view=status the system will look like [this](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf)
 
 ```
-
- 2. After running command check status at 
-    http://localhost:8080/status?view=status [snapshot](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf)
-
-```
-2. Check sparql
 PREFIX cc:    <http://creativecommons.org/ns#> 
 PREFIX void:  <http://rdfs.org/ns/void#> 
 PREFIX skos:  <http://www.w3.org/2004/02/skos/core#> 
