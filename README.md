@@ -29,12 +29,7 @@ curl -X POST --progress-bar \
     -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/YourNameSpace/' \
     "http://localhost:8080/initialize"
 ```
-1. Run the following commands
-```
-docker pull fazleh/term-a-llod:latest
-docker run -p 8080:8080 -it term-a-llod:latest
-```
-After running command check status at  [http://localhost:8080/status?view=status](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf)
+After running command check status at http://localhost:8080/status?view=status [snapshot](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf)
 
 ```
 curl -X POST --progress-bar \
