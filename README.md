@@ -29,20 +29,8 @@ curl -X POST --progress-bar \
     -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/YourNameSpace/' \
     "http://localhost:8080/initialize"
 ```
-After running command check status at http://localhost:8080/status?view=status [snapshot](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf)
-
-```
-curl -X POST --progress-bar \
-    --verbose \
-    -F 'upload=@solar.tbx' \
-    -F 'mapping=@mappings.default' \
-    -F 'graph=tbx2rdf_graph' \
-    -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/YourNameSpace/' \
-    "http://localhost:8080/initialize"
-```
-
-    After running command check status at 
-    http://localhost:8080/status?view=status the system will look like [this](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf)
+After running command check status at http://localhost:8080/status?view=status \
+the system look like [this]  (https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf)
 
 ```
 PREFIX cc:    <http://creativecommons.org/ns#> 
