@@ -16,7 +16,7 @@ This message shows that your installation appears to be working correctly.
 Run the following commands
 ```
 docker pull fazleh/term-a-llod:latest
-docker run -p 8080:8080 -v ~/server/:/tmp/server/ -it term-a-llod:latest
+docker run -p 8080:8080 -it term-a-llod:latest
 
 check the status
 http://localhost:8080/status?view=status
