@@ -1,25 +1,23 @@
 # testTal
 Prerequisite
-```
+
 install docker
+```
 https://docs.docker.com/engine/install/
 
 check whether docker is running in your machine
 sudo docker run hello-world
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
-....
 .....
-
+.....
 ```
-
-1. Run the following commands
+1. downlaod and install docker image
 ```
 docker pull fazleh/term-a-llod:latest
 docker run -p 8080:8080 -it term-a-llod:latest
 ```
 2. Publishing your terminology.
-
 ```
 curl -X POST --progress-bar \
     --verbose \
@@ -30,8 +28,7 @@ curl -X POST --progress-bar \
     "http://localhost:8080/initialize"
 ```
 After running command check status at http://localhost:8080/status?view=status \
-the system look like [this]  (https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf)
-
+he system look like [this](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf)
 ```
 PREFIX cc:    <http://creativecommons.org/ns#> 
 PREFIX void:  <http://rdfs.org/ns/void#> 
