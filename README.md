@@ -49,7 +49,7 @@ PREFIX odrl:  <http://www.w3.org/ns/odrl/2/>
 PREFIX dcat:  <http://www.w3.org/ns/dcat#> 
 PREFIX prov:  <http://www.w3.org/ns/prov#> 
 
-SELECT ?s ?p ?o WHERE { 
+SELECT ?s ?rep ?o WHERE { 
     ?s ?p ?o .
     ?o ontolex:canonicalForm ?canform .
     ?canform ontolex:writtenRep ?rep .
