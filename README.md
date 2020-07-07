@@ -20,6 +20,7 @@ docker run -p 8080:8080 -it term-a-llod:latest
 
 check the status
 http://localhost:8080/status?view=status
+The snapshot is looks as follow: https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf
 ```
 
 
