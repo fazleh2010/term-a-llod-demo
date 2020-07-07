@@ -13,15 +13,12 @@ This message shows that your installation appears to be working correctly.
 
 ```
 
-Run the following commands
+1. Run the following commands
 ```
 docker pull fazleh/term-a-llod:latest
 docker run -p 8080:8080 -it term-a-llod:latest
 ```
-check the status
-http://localhost:8080/status?view=status
-
-##Publishing your terminology.
+2. Publishing your terminology.
 
 ```
 curl -X POST --progress-bar \
@@ -37,17 +34,11 @@ curl -X POST --progress-bar \
     the status will look like as follow:
 
 ```
- After running command check status at 
-    http://localhost:8080/status?view=status
-The system shanpshot after initialization
-    [snapshot](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf)
 
-##Check that Virtuoso server is running.
+ 2. After running command check status at 
+    http://localhost:8080/status?view=status [snapshot](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf)
 
 ```
-1. Service status
-http://localhost:8080/status?view=status
-
 2. Check sparql
 PREFIX cc:    <http://creativecommons.org/ns#> 
 PREFIX void:  <http://rdfs.org/ns/void#> 
