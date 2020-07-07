@@ -28,7 +28,9 @@ curl -X POST --progress-bar \
     "http://localhost:8080/initialize"
 ```
 After running command check status at http://localhost:8080/status?view=status \
-he system look like [this](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf)
+The system looks like [this snapshot](https://github.com/fazleh2010/testTal/blob/master/statusInitialize.pdf)
+
+2. Sparql query your terminology
 ```
 PREFIX cc:    <http://creativecommons.org/ns#> 
 PREFIX void:  <http://rdfs.org/ns/void#> 
@@ -49,14 +51,9 @@ SELECT ?s ?p ?o WHERE {
     ?o ontolex:canonicalForm ?canform .
     ?canform ontolex:writtenRep ?rep .
 } LIMIT 5
-
-3. Check the browser
-
-4. Search a terms
-
 ```
 
-Linking your terminology with other terminology.
+3. Linking your terminology with other terminology.
 
 ```
 curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql" \
@@ -65,7 +62,7 @@ curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio
           
           
  ```
-check term links
+4. Check term links
  ```
 PREFIX cc:    <http://creativecommons.org/ns#> 
 PREFIX void:  <http://rdfs.org/ns/void#> 
