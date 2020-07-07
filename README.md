@@ -32,6 +32,9 @@ curl -X POST --progress-bar \
 
 2. Sparql query your terminology
 ```
+go to http://localhost:8080/status?view=sparql
+run the following sparql query
+
 PREFIX cc:    <http://creativecommons.org/ns#> 
 PREFIX void:  <http://rdfs.org/ns/void#> 
 PREFIX skos:  <http://www.w3.org/2004/02/skos/core#> 
@@ -64,6 +67,9 @@ curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio
  ```
 4. Check term links
  ```
+go to http://localhost:8080/status?view=sparql
+run the following sparql query
+
 PREFIX cc:    <http://creativecommons.org/ns#> 
 PREFIX void:  <http://rdfs.org/ns/void#> 
 PREFIX skos:  <http://www.w3.org/2004/02/skos/core#> 
