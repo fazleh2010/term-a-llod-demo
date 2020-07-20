@@ -4,7 +4,7 @@ Prerequisite
 docker
 Note: The instruction is written in Github. you dont need to install git. Installing docker is only Prerequisite.
 
-install docker
+###install docker
 ```
 https://docs.docker.com/engine/install/
 
@@ -15,12 +15,12 @@ This message shows that your installation appears to be working correctly.
 .....
 .....
 ```
-1. downlaod and install docker image
+###downlaod and install docker image
 ```
 docker pull fazleh/term-a-llod:latest
 docker run -p 8080:8080 -it fazleh/term-a-llod:latest
 ```
-2. Publishing your terminology.
+### publishing your terminology.
 ```
 curl -X POST --progress-bar \
     --verbose \
@@ -30,10 +30,10 @@ curl -X POST --progress-bar \
     -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/YourNameSpace/' \
     "http://localhost:8080/initialize"
     
-    After running command check status at http://localhost:8080/status?view=status 
+   ###After running command check status at http://localhost:8080/status?view=status 
 ```
 
-3. Linking your terminology with other terminology.
+### Linking your terminology with other terminology.
 
 ```
 curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql" \
@@ -42,28 +42,19 @@ curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio
           
           
  ```
-4. Check term links
+### Check your terminology
+ ```
+b) got o http://localhost:8080/describe
+   you can see the terms in language wise and alphabet order
+   Note: currently term link does not work. It is under construction.
+   or 
+a) go to http://localhost:8080/status?view=sparql
+     press sparql button
+```
+### Check term links
  ```
 go to http://localhost:8080/status?view=sparql
-run the following sparql query
-
-PREFIX cc:    <http://creativecommons.org/ns#> 
-PREFIX void:  <http://rdfs.org/ns/void#> 
-PREFIX skos:  <http://www.w3.org/2004/02/skos/core#> 
-PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
-PREFIX tbx:   <http://tbx2rdf.lider-project.eu/tbx#> 
-PREFIX decomp: <http://www.w3.org/ns/lemon/decomp#> 
-PREFIX dct:   <http://purl.org/dc/terms/> 
-PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
-PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#> 
-PREFIX ldr:   <http://purl.oclc.org/NET/ldr/ns#> 
-PREFIX odrl:  <http://www.w3.org/ns/odrl/2/> 
-PREFIX dcat:  <http://www.w3.org/ns/dcat#> 
-PREFIX prov:  <http://www.w3.org/ns/prov#> 
-
-SELECT ?s ?o WHERE { 
-    ?s ontolex:sameAs ?o .
-} LIMIT 5
+     press sparql button
 ```
 The system snapshot can be seen from this [link](https://github.com/fazleh2010/testTal/blob/master/Demo.pdf)
 
