@@ -33,30 +33,18 @@ curl -X POST --progress-bar \
     After running command check status at http://localhost:8080/status?view=status 
 ```
 
-2. Sparql query your terminology
+2. Check your terminology
+a) go to http://localhost:8080/status?view=sparql
+   press Sparql query  test
+   ```
+ go to http://localhost:8080/status?view=sparql
+   press Sparql query
 ```
-go to http://localhost:8080/status?view=sparql
-run the following sparql query
-
-PREFIX cc:    <http://creativecommons.org/ns#> 
-PREFIX void:  <http://rdfs.org/ns/void#> 
-PREFIX skos:  <http://www.w3.org/2004/02/skos/core#> 
-PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
-PREFIX tbx:   <http://tbx2rdf.lider-project.eu/tbx#> 
-PREFIX decomp: <http://www.w3.org/ns/lemon/decomp#> 
-PREFIX dct:   <http://purl.org/dc/terms/> 
-PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
-PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#> 
-PREFIX ldr:   <http://purl.oclc.org/NET/ldr/ns#> 
-PREFIX odrl:  <http://www.w3.org/ns/odrl/2/> 
-PREFIX dcat:  <http://www.w3.org/ns/dcat#> 
-PREFIX prov:  <http://www.w3.org/ns/prov#> 
-
-SELECT ?s ?rep ?o WHERE { 
-    ?s ?p ?o .
-    ?o ontolex:canonicalForm ?canform .
-    ?canform ontolex:writtenRep ?rep .
-} LIMIT 5
+b) go to browser 
+   You can see your terminology in language wise sorted alphabet order.
+  ```
+ go to browser 
+   You can see your terminology in language wise sorted alphabet order.
 ```
 
 3. Linking your terminology with other terminology.
