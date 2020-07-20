@@ -4,7 +4,7 @@ Prerequisite
 docker
 Note: The instruction is written in Github. you dont need to install git. Installing docker is only Prerequisite.
 
-### install docker
+1. install docker
 ```
 https://docs.docker.com/engine/install/
 
@@ -15,13 +15,13 @@ This message shows that your installation appears to be working correctly.
 .....
 .....
 ```
-1. downlaod and install docker image
+2. downlaod and install docker image
 ```
 docker pull fazleh/term-a-llod:latest
 docker run -p 8080:8080 -it fazleh/term-a-llod:latest
 ```
-2. Go to home page at http://localhost:8080/status?view=status 
-3. publishing your terminology.
+3. Go to home page at http://localhost:8080/status?view=status 
+4. publishing your terminology.
 ```
 curl -X POST --progress-bar \
     --verbose \
@@ -31,7 +31,7 @@ curl -X POST --progress-bar \
     -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/YourNameSpace/' \
     "http://localhost:8080/initialize"
 ```
-4. Check your terminology
+5. Check your terminology
  ```
 b) got o http://localhost:8080/describe
    you can see the terms in language wise and alphabet order
@@ -40,13 +40,13 @@ b) got o http://localhost:8080/describe
 a) go to http://localhost:8080/status?view=sparql
      press query button
 ```
-5. Linking your terminology with other terminology.
+6. Linking your terminology with other terminology.
 ```
 curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql" \
           -H "Content-Type: application/x-www-form-urlencoded" \
           -X POST "http://localhost:8080/link"      
  ```
-6. Check term links
+7. Check term links
   go to http://localhost:8080/status?view=search
  ```
 a) type the word in search box. An example linked term is found between two terminologies solar and intaglio terminology is 'hole'
