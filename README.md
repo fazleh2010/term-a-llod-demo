@@ -20,7 +20,7 @@ This message shows that your installation appears to be working correctly.
 docker pull fazleh/term-a-llod:latest
 docker run -p 8080:8080 -it fazleh/term-a-llod:latest
 ```
- ### Go to home page at http://localhost:8080/status?view=status 
+Go to home page at http://localhost:8080/status?view=status 
 ### publishing your terminology.
 ```
 curl -X POST --progress-bar \
