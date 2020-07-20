@@ -1,5 +1,7 @@
-# Publish and link your terminology
+# Instruction for publish your terminology and link your with other terminology
 Prerequisite
+docker
+Note: The instruction is written in Github. you dont need to install git. Installing docker is only Prerequisite.
 
 install docker
 ```
