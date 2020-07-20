@@ -15,11 +15,13 @@ This message shows that your installation appears to be working correctly.
 .....
 .....
 ```
-###downlaod and install docker image
+### downlaod and install docker image
 ```
 docker pull fazleh/term-a-llod:latest
 docker run -p 8080:8080 -it fazleh/term-a-llod:latest
+ ###After running command go to home page at http://localhost:8080/status?view=status 
 ```
+
 ### publishing your terminology.
 ```
 curl -X POST --progress-bar \
