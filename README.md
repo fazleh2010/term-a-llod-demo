@@ -2,7 +2,7 @@
 ### Instruction for publish your terminology and link your with other terminology
 Prerequisite
 docker
-Note: The instruction is written in Github. you dont need to install git. Installing docker is only Prerequisite.
+Note: The instruction is written in Github. you dont need to install git. Installing docker is only Prerequisite. An example file of terminology (solar.tbx) and mapping file can be found in this repository.
 
 1. install docker
 ```
