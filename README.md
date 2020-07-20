@@ -33,20 +33,6 @@ curl -X POST --progress-bar \
     After running command check status at http://localhost:8080/status?view=status 
 ```
 
-2. Check your terminology
-a) go to http://localhost:8080/status?view=sparql
-   press Sparql query  test
-   ```
- go to http://localhost:8080/status?view=sparql
-   press Sparql query
-```
-b) go to browser 
-   You can see your terminology in language wise sorted alphabet order.
-  ```
- go to browser 
-   You can see your terminology in language wise sorted alphabet order.
-```
-
 3. Linking your terminology with other terminology.
 
 ```
