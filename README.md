@@ -19,9 +19,8 @@ This message shows that your installation appears to be working correctly.
 ```
 docker pull fazleh/term-a-llod:latest
 docker run -p 8080:8080 -it fazleh/term-a-llod:latest
- ###After running command go to home page at http://localhost:8080/status?view=status 
 ```
-
+ ### Go to home page at http://localhost:8080/status?view=status 
 ### publishing your terminology.
 ```
 curl -X POST --progress-bar \
@@ -31,19 +30,7 @@ curl -X POST --progress-bar \
     -F 'graph=tbx2rdf_graph' \
     -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/YourNameSpace/' \
     "http://localhost:8080/initialize"
-    
-   ###After running command check status at http://localhost:8080/status?view=status 
 ```
-
-### Linking your terminology with other terminology.
-
-```
-curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql" \
-          -H "Content-Type: application/x-www-form-urlencoded" \
-          -X POST "http://localhost:8080/link"
-          
-          
- ```
 ### Check your terminology
  ```
 b) got o http://localhost:8080/describe
@@ -51,12 +38,19 @@ b) got o http://localhost:8080/describe
    Note: currently term link does not work. It is under construction.
    or 
 a) go to http://localhost:8080/status?view=sparql
-     press sparql button
+     press query button
 ```
-### Check term links
+### Linking your terminology with other terminology.
+```
+curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql" \
+          -H "Content-Type: application/x-www-form-urlencoded" \
+          -X POST "http://localhost:8080/link"      
  ```
-go to http://localhost:8080/status?view=sparql
-     press sparql button
+### Check term links
+  go to http://localhost:8080/status?view=search
+ ```
+a) type the word in search box. An example linked term is found between two terminologies solar and intaglio terminology is 'hole'
+   type 'hole' in the search box. Or
 ```
 The system snapshot can be seen from this [link](https://github.com/fazleh2010/testTal/blob/master/Demo.pdf)
 
