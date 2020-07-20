@@ -18,7 +18,7 @@ This message shows that your installation appears to be working correctly.
 1. downlaod and install docker image
 ```
 docker pull fazleh/term-a-llod:latest
-docker run -p 8080:8080 -it term-a-llod:latest
+docker run -p 8080:8080 -it fazleh/term-a-llod:latest
 ```
 2. Publishing your terminology.
 ```
