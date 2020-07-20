@@ -53,8 +53,16 @@ a) type the word in search box. An example linked term is found between two term
    type 'hole' in the search box. Or
 ```
 ## The system snapshot can be seen from this [link](https://github.com/fazleh2010/term-a-llod-demo/blob/master/GuidleLIne.pdf)
+##Current limitation
+a) the current version of the system is not tested for very large terminology such as IATE. The matching algorithm writting for two terminologies currently check one by one. It needs to be changed.
+b) Term pages of the browser is not working now. They will be linked to http://localhost:8080/status?view=search.
 
 ---
+
+## Author
+* **Mohammad Fazleh Elahi**
+* **Frank Grimm**
+* **Philipp Cimiano**
 
 
 
