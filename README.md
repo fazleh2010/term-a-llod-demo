@@ -62,7 +62,7 @@ b) Term pages of the browser is not working now. They will be linked to http://l
 ## Author
 * **Mohammad Fazleh Elahi**
 * **Frank Grimm**
-* **Philipp Cimiano**
+* **Dr. Philipp Cimiano**
 
 
 
