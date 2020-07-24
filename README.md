@@ -29,10 +29,8 @@ curl -X POST --progress-bar \
 5. Check your terminology
  ```
 b) got o http://localhost:8080/describe
-   In the browser,you can see the terms in sorted alphabet order
-   Note: currently term link does not work. It is under construction. 
-a) go to http://localhost:8080/status?view=sparql
-     press query button
+   In the browser,you can see the terms in sorted alphabet order. Note: currently term link does not work. It is under construction. 
+a) go to http://localhost:8080/status?view=sparql and press query button
 ```
 6. Linking your terminology with other terminology.
 ```
