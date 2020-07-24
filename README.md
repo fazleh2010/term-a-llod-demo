@@ -43,8 +43,8 @@ curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio
 7. Check term links
   go to http://localhost:8080/status?view=search
  ```
-a) type the word in search box. An example linked term is found between two terminologies solar and intaglio terminology is 'hole'
-   type 'hole' in the search box. Or
+a) an example of linked term is 'hole' 
+b) type 'hole' in search box
 ```
 ### The system snapshot can be seen from this [link](https://github.com/fazleh2010/term-a-llod-demo/blob/master/GuidleLIne.pdf)
 ### Current limitation
