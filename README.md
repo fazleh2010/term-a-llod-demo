@@ -7,13 +7,6 @@ Note: An example file of terminology (solar.tbx) and mapping file can be found i
 1. install docker
 ```
 https://docs.docker.com/engine/install/
-
-check whether docker is running in your machine
-sudo docker run hello-world
-Hello from Docker!
-This message shows that your installation appears to be working correctly.
-.....
-.....
 ```
 2. downlaod and install docker image
 ```
