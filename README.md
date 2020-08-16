@@ -13,7 +13,7 @@ https://docs.docker.com/engine/install/
 docker pull fazleh/term-a-llod:latest
 docker run -p 8080:8080 -it fazleh/term-a-llod:latest
 ```
-3. Go to home page at http://localhost:8080/status?view=status 
+3. Go to home page at http://localhost:8080/status?view=status of the system.
 4. Publish your terminology using the following curl command. Here ,solar.tbx' is the terminology file and 'mappings.default' is the mapping file.
 ```
 curl -X POST --progress-bar \
@@ -25,11 +25,12 @@ curl -X POST --progress-bar \
     "http://localhost:8080/initialize"
     
 ```
-5. Check your terminology
+5. Check your terminology. In the browser,you can see the terms in sorted alphabet order. The detail of each term can be seen from by clicking the term.
  ```
-b) got o http://localhost:8080/describe
-   In the browser,you can see the terms in sorted alphabet order. Note: currently term link does not work. It is under construction. 
-a) go to http://localhost:8080/status?view=sparql and press query button
+Browser:
+got o http://localhost:8080/describe
+Sparql
+go to http://localhost:8080/status?view=sparql and press query button
 ```
 6. Linking your terminology with other terminology.
 ```
