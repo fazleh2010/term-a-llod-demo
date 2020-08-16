@@ -23,7 +23,6 @@ curl -X POST --progress-bar \
     -F 'graph=tbx2rdf_graph' \
     -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/YourNameSpace/' \
     "http://localhost:8080/initialize"
-    
 ```
 5. Check your terminology. In the browser,you can see the terms in sorted alphabet order. The detail of each term can be seen from by clicking the term.
  ```
