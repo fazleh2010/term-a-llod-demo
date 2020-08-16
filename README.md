@@ -45,7 +45,7 @@ Check from browser
 Got o http://localhost:8080/describe and find the term 'hole' in the termlist and click the term.
 search the term
 Go to http://localhost:8080/status?view=search  and type 'hole' in search box
----
+```
 
 ## Author
 * **Mohammad Fazleh Elahi**
