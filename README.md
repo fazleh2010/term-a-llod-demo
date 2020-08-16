@@ -46,7 +46,7 @@ search the term
 Go to http://localhost:8080/status?view=search  and type 'hole' in search box
 ```
 
-## Author
+## Authors
 * **Mohammad Fazleh Elahi**
 * **Frank Grimm**
 * **Dr. Philipp Cimiano**
