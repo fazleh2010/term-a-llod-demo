@@ -2,7 +2,7 @@
 ### Instruction for publish your terminology and link your with other terminology
 Prerequisite
 docker
-Note: An example file of terminology (solar.tbx) and mapping file can be found in this repository.
+Note: An example file of terminology (solar.tbx) and mapping file (mappings.default) can be found in this repository.
 
 1. install docker
 ```
