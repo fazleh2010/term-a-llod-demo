@@ -14,7 +14,7 @@ docker pull fazleh/term-a-llod:latest
 docker run -p 8080:8080 -it fazleh/term-a-llod:latest
 ```
 3. Go to home page at http://localhost:8080/status?view=status 
-4. publish your terminology using the following curl command. Here ,solar.tbx' is the terminology file and 'mappings.default' is the mapping file.
+4. Publish your terminology using the following curl command. Here ,solar.tbx' is the terminology file and 'mappings.default' is the mapping file.
 ```
 curl -X POST --progress-bar \
     --verbose \
