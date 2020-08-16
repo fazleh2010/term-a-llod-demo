@@ -14,7 +14,7 @@ docker pull fazleh/term-a-llod:latest
 docker run -p 8080:8080 -it fazleh/term-a-llod:latest
 ```
 3. Go to home page at http://localhost:8080/status?view=status 
-4. publishing your terminology.
+4. publish your terminology using the following curl command. Here ,solar.tbx' is the terminology file and 'mappings.default' is the mapping file.
 ```
 curl -X POST --progress-bar \
     --verbose \
@@ -24,7 +24,6 @@ curl -X POST --progress-bar \
     -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/YourNameSpace/' \
     "http://localhost:8080/initialize"
     
-    here solar.tbx is the terminology file and mapping file (mappings.default)
 ```
 5. Check your terminology
  ```
@@ -45,11 +44,6 @@ curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio
  ```
 a) an example of linked term is 'hole' 
 b) type 'hole' in search box
-```
-### The system snapshot can be seen from this [link](https://github.com/fazleh2010/term-a-llod-demo/blob/master/GuidleLIne.pdf)
-### Current limitation
-a) the current version of the system is not tested for very large terminology such as IATE. The matching algorithm writting for two terminologies currently check one by one. It needs to be changed.
-b) Term pages of the browser is not working now. They will be linked to http://localhost:8080/status?view=search.
 
 ---
 
