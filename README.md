@@ -14,7 +14,7 @@ docker pull fazleh/term-a-llod:latest
 docker run -p 8080:8080 -it fazleh/term-a-llod:latest
 ```
 3. Go to home page at http://localhost:8080/status?view=status of the system.
-4. Publish your terminology using the following curl command. Here ,solar.tbx' is the terminology file and 'mappings.default' is the mapping file.
+4. Publish your terminology using the following curl command. Here ,solar.tbx' is the terminology file and ,mappings.default' is the mapping file.
 ```
 curl -X POST --progress-bar \
     --verbose \
@@ -28,24 +28,23 @@ curl -X POST --progress-bar \
 5. Check your terminology. In the browser,you can see the terms in sorted alphabet order. The detail of each term can be seen from by clicking the term.
  ```
 Browser:
-got o http://localhost:8080/describe
+Got o http://localhost:8080/describe
 Sparql
-go to http://localhost:8080/status?view=sparql and press query button
+Go to http://localhost:8080/status?view=sparql and press query button
 ```
-6. Linking your terminology with other terminology.
+6. Linking your terminology with other terminology.Here https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql is sparql endpoint of the other terminology. In this case, the terminology is ,intaglio'
 ```
 curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql" \
           -H "Content-Type: application/x-www-form-urlencoded" \
           -X POST "http://localhost:8080/link"      
-          
- here https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql is sparql endpoint of the terminology you wanted to link.         
  ```
-7. Check term links
-  go to http://localhost:8080/status?view=search
+7. Check term links. For example 'hole' is a term that exists both in your terminology and other terminology ,intaglio'
+ 
  ```
-a) an example of linked term is 'hole' 
-b) type 'hole' in search box
-
+Check from browser
+Got o http://localhost:8080/describe and find the term 'hole' in the termlist and click the term.
+search the term
+Go to http://localhost:8080/status?view=search  and type 'hole' in search box
 ---
 
 ## Author
