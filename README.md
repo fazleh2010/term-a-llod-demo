@@ -23,9 +23,8 @@ curl -X POST --progress-bar \
     -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/YourNameSpace/' \
     "http://localhost:8080/initialize"
 ```
-Browse your terminology. In the browser,you can browse the terms in sorted alphabet order. The detail of each term can be seen from by clicking the term. You can also browse your term using sparql.
-
-a) Browser: Got o http://localhost:8080/describe
+Browse your terminology. In the browser,you can browse the terms in sorted alphabet order. The detail of each term can be seen from by clicking the term. You can also browse your term using sparql. \
+a) Browser: Got o http://localhost:8080/describe \
 b) Sparql: Go to http://localhost:8080/status?view=sparql and press query button
 
 ### Link your terminology
