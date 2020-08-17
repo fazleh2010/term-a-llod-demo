@@ -4,7 +4,7 @@ This page provides instructions of how to run term-a-llod tool to publish and li
 
 
 
-[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.dropbox.com/s/1pko14sc3qctzfr/final.mov?dl=0)
 
 
 
