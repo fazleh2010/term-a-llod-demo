@@ -3,7 +3,7 @@ This page provides instructions of how to run term-a-llod tool to publish and li
 
 [![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.dropbox.com/s/1pko14sc3qctzfr/final.mov?dl=0)
 
-[<img src="https://img.youtube.com/vi/<VIDEO ID>/maxresdefault.jpg" width="50%">](https://youtu.be/<VIDEO ID>)
+[<img src="https://share.gifyoutube.com/KzB6Gb.gif" width="50%">](https://www.dropbox.com/s/1pko14sc3qctzfr/final.mov?dl=0)
 
 ### Install term-a-llod on your machine
 if docker is not already installed in your machine, install docker (https://docs.docker.com/engine/install/) and test that docker is running in your machine properly.
