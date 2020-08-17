@@ -6,7 +6,7 @@ if docker is not already installed in your machine, install docker (https://docs
 ```
 docker pull fazleh/term-a-llod:latest
 ```
-2. run the docker container in your machine
+2. run the docker container on your machine
 ```
 docker run -p 8080:8080 -it fazleh/term-a-llod:latest
 ```
