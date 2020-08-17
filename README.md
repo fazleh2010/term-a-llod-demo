@@ -1,8 +1,7 @@
 # Publish and link your terminology
-## Instruction for publish your terminology and link your with other terminology
-Prerequisite: docker
-if docker is not already installed in your machine, install docker (https://docs.docker.com/engine/install/) and test that docker is running in your machine properly.
+This page provides instructions of how to run term-a-llod tool to publish and link your terminology. There is a video to show you how to use term-a-llod tool. [WebLicht user guide](http://sfs.uni-tuebingen.de/~meh/weblicht-lapps/) 
 ### Install Term-a-llod in your machine
+if docker is not already installed in your machine, install docker (https://docs.docker.com/engine/install/) and test that docker is running in your machine properly.
 1. downlaod term-a-llod image from Docker Hub using following command
 ```
 docker pull fazleh/term-a-llod:latest
