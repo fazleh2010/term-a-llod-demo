@@ -1,8 +1,8 @@
 # Publish and link your terminology
-### Instruction for publish your terminology and link your with other terminology
+## Instruction for publish your terminology and link your with other terminology
 Prerequisite: docker
 if docker is not already installed in your machine, install docker (https://docs.docker.com/engine/install/) and test that docker is running in your machine properly.
-## Install Term-a-llod in your machine
+### Install Term-a-llod in your machine
 1. downlaod term-a-llod image from Docker Hub using following command
 ```
 docker pull fazleh/term-a-llod:latest
@@ -13,7 +13,7 @@ docker run -p 8080:8080 -it fazleh/term-a-llod:latest
 ```
 3. Go to home page at http://localhost:8080/status?view=status and the interface will be shown on your browser.
 
-## Publish your terminology
+### Publish your terminology
 4. Publish your terminology using the following curl command. Here ,solar.tbx' is the terminology file and ,mappings.default' is the mapping file. Use your NameSpace.
 ```
 curl -X POST --progress-bar \
@@ -31,7 +31,7 @@ Got o http://localhost:8080/describe
 Sparql
 Go to http://localhost:8080/status?view=sparql and press query button
 ```
-## Link your terminology
+### Link your terminology
 6. Linking your terminology with other terminology. For example, we want to link it ,intaglio' terminology. Here https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql is sparql endpoint of the  terminology. 
 ```
 curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql" \
