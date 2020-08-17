@@ -1,7 +1,7 @@
 # Publish and link your terminology
 This page provides instructions of how to run term-a-llod tool to publish and link your terminology. The user guide of term-a-llod can be seen from the following vedio 
 
-[<img src="/home/elahi/Pictures/term-a-llod.png" width="50%">](https://www.dropbox.com/s/1pko14sc3qctzfr/final.mov?dl=0)
+[<img src="https://www.dropbox.com/s/jnlpx776cte9icr/term-a-llod.png?dl=0" width="50%">](https://www.dropbox.com/s/1pko14sc3qctzfr/final.mov?dl=0)
 
 ### Install term-a-llod on your machine
 if docker is not already installed in your machine, install docker (https://docs.docker.com/engine/install/) and test that docker is running in your machine properly.
