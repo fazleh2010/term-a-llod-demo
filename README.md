@@ -1,14 +1,14 @@
 # Publish and link your terminology
-This page provides instructions of how to run term-a-llod tool to publish and link your terminology. There is a video to show you how to use term-a-llod tool. [term-a-llod user guice](https://github.com/fazleh2010/term-a-llod-demo/blob/master/testvedio.mov) 
+This page provides instructions of how to run term-a-llod tool to publish and link your terminology. There is a video to show you how to use term-a-llod tool. [term-a-llod user guide](https://github.com/fazleh2010/term-a-llod-demo/blob/master/testvedio.mov) 
 ### Install term-a-llod on your machine
 if docker is not already installed in your machine, install docker (https://docs.docker.com/engine/install/) and test that docker is running in your machine properly.
 1. downlaod term-a-llod image from Docker Hub using following command
 ```
-docker pull fazleh/term-a-llod:latest
+docker pull elahi/term-a-llod:latest
 ```
 2. run the docker container on your machine
 ```
-docker run -p 8080:8080 -it fazleh/term-a-llod:latest
+docker run -p 8080:8080 -it elahi/term-a-llod:latest
 ```
 3. Go to home page at http://localhost:8080/status?view=status and the interface will be shown on your browser.
 
