@@ -24,7 +24,7 @@ curl -X POST --progress-bar \
     "http://localhost:8080/initialize"
 ```
 Browse your terminology. In the browser,you can browse the terms in sorted alphabet order. The detail of each term can be seen from by clicking the term. You can also browse your term using sparql. \
-a) Browser: Got o http://localhost:8080/describe \
+a) Browser: Go to http://localhost:8080/describe \
 b) Sparql: Go to http://localhost:8080/status?view=sparql and press query button
 
 ### Link your terminology
@@ -36,8 +36,8 @@ curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio
  ```
 Browse term links. For example 'hole' is a term that exists both in your terminology and ,intaglio' terminology
 
-a) Browser: Got o http://localhost:8080/describe and find the term 'hole' from (i.e G_H alphabetic)in the termlist and click the term.
-b)Search the term: Go to http://localhost:8080/status?view=search  and type 'hole' 
+a) Browser: Got o http://localhost:8080/describe and find the term 'hole' from (i.e G_H alphabetic)in the termlist and click the term. \
+b)Search the term: Go to http://localhost:8080/status?view=search  and type 'hole'  \
 c) Sparql: Go to http://localhost:8080/status?view=sparql and write the sparql and press the button.
 
 ## Authors
