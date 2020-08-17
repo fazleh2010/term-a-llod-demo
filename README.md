@@ -39,10 +39,9 @@ curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio
  ```
 Browse term links. For example 'hole' is a term that exists both in your terminology and ,intaglio' terminology
 
-a) Browser: Got o http://localhost:8080/describe and find the term 'hole' from (i.e G_H alphabetic)in the termlist and click the term. \
-b)Search the term: Go to http://localhost:8080/status?view=search  and type 'hole'  \
-c) Sparql: Go to http://localhost:8080/status?view=sparql and write the sparql and press the button.
-
+a) Browser: In the browser go to English>G_H> click the term 'hole'. You can see the links \
+b) Search the term: Go to http://localhost:8080/status?view=search  and type 'hole'  \
+c) Sparql: press sparql>query.ou can see the links \
 ## Authors
 * **Mohammad Fazleh Elahi**
 * **Frank Grimm**
