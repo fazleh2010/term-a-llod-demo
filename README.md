@@ -1,13 +1,7 @@
 # Publish and link your terminology
 This page provides instructions of how to run term-a-llod tool to publish and link your terminology. The user guide of term-a-llod can be seen from the following vedio 
 
-
-
-
 [![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.dropbox.com/s/1pko14sc3qctzfr/final.mov?dl=0)
-
-
-
 
 ### Install term-a-llod on your machine
 if docker is not already installed in your machine, install docker (https://docs.docker.com/engine/install/) and test that docker is running in your machine properly.
