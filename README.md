@@ -42,10 +42,9 @@ Browse term links. For example 'hole' is a term that exists both in your termino
 a) Browser: In the browser go to English>G_H> click the term 'hole'. You can see the links \
 b) Search the term: Go to http://localhost:8080/status?view=search  and type 'hole'  \
 c) Sparql: press sparql>query.ou can see the links \
-## Authors
+## Developers
 * **Mohammad Fazleh Elahi**
 * **Frank Grimm**
-* **Dr. Philipp Cimiano**
 
 
 
