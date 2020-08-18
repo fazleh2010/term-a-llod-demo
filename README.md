@@ -4,8 +4,8 @@ This page provides instructions of how to run term-a-llod tool to publish and li
 [<img src="https://github.com/fazleh2010/term-a-llod-demo/blob/master/term-a-llod.png" width="50%">](https://www.dropbox.com/s/1pko14sc3qctzfr/final.mov?dl=0)
 
 ### Install term-a-llod on your machine
-if docker is not already installed in your machine, install docker (https://docs.docker.com/engine/install/) and test that docker is running in your machine properly.
-1. downlaod term-a-llod image from Docker Hub using following command
+if docker is not already installed in your machine, install docker (https://docs.docker.com/engine/install/).
+1. downlaod term-a-llod image using following command
 ```
 docker pull elahi/term-a-llod:latest
 ```
@@ -16,7 +16,7 @@ docker run -p 8080:8080 -it elahi/term-a-llod:latest
 Go to home page at http://localhost:8080/status?view=status and the interface will be shown on your browser.
 
 ### Publish your terminology
-3. Publish your terminology using the following curl command. Here ,solar.tbx' is the terminology file and ,mappings.default' is the mapping file. Use your NameSpace.
+3. Publish your terminology using the following command. Here ,solar.tbx' is the terminology file and ,mappings.default' is the mapping file. Use your NameSpace in the url.
 ```
 curl -X POST --progress-bar \
     --verbose \
@@ -26,8 +26,7 @@ curl -X POST --progress-bar \
     -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/YourNameSpace/' \
     "http://localhost:8080/initialize"
 ```
-Browse your terminology. In the browser,you can browse the terms in sorted alphabet order. The detail of each term can be seen from by clicking the term. You can also browse your term using sparql. \
-a) Browser: Go to http://localhost:8080/describe \
+a) Browser: Go to http://localhost:8080/describe . In the browser,you can browse the terms in sorted alphabet order. The detail of each term can be seen from by clicking the term.\
 b) Sparql: Go to http://localhost:8080/status?view=sparql and press query button
 
 ### Link your terminology
