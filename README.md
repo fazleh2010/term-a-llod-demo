@@ -36,7 +36,7 @@ curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio
           -H "Content-Type: application/x-www-form-urlencoded" \
           -X POST "http://localhost:8080/link"      
  ```
-Browse term links. For example 'hole' is a term that exists both in your terminology and ,intaglio' terminology
+Check term links. For example 'hole' is a term that exists both in your terminology and ,intaglio' terminology
 
 a) Browser: In the browser go to English>G_H> click the term 'hole'. You can see the links \
 b) Search the term: Go to http://localhost:8080/status?view=search  and type 'hole'  \
