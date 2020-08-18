@@ -1,5 +1,5 @@
 # Publish and link your terminology
-This page provides instructions of how to run term-a-llod tool to publish and link your terminology. The user guide of term-a-llod can be seen from the following vedio 
+This page provides instructions of how to run term-a-llod tool to publish and link your terminology. The user guide can be seen from the following vedio 
 
 [<img src="https://github.com/fazleh2010/term-a-llod-demo/blob/master/term-a-llod.png" width="50%">](https://www.dropbox.com/s/1pko14sc3qctzfr/final.mov?dl=0)
 
