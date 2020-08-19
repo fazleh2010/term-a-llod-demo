@@ -45,6 +45,7 @@ c) Sparql: press sparql>query.ou can see the links \
 ## Developers
 * **Mohammad Fazleh Elahi**
 * **Frank Grimm**
+* **Dr. Philipp Cimiano**
 
 
 
