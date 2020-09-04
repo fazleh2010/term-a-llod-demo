@@ -26,8 +26,8 @@ curl -X POST --progress-bar \
     -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/YourNameSpace/' \
     "http://localhost:8080/initialize"
 ```
-a) Browser: Go to http://localhost:8080/describe . In the browser,you can browse the terms in sorted alphabet order. The detail of each term can be seen from by clicking the term.\
-b) Sparql: Go to http://localhost:8080/status?view=sparql and press query button
+a) Browser: Click the Browser button. The browser will open. You can Go to you can browse the terms in sorted alphabet order and see individual term details (by clicking the term).
+b) Sparql: Click the Sparql button and press the Query button for accessing the terminologies using SPARQL.
 
 ### Link your terminology
 4. Linking your terminology with other terminology. For example, we want to link it ,intaglio' terminology. Here https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql is sparql endpoint of the  terminology. 
