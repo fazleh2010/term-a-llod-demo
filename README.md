@@ -4,19 +4,19 @@ This page provides instructions on how to run the term-a-llod tool to publish an
 [<img src="https://github.com/fazleh2010/term-a-llod-demo/blob/master/term-a-llod.png" width="50%">](https://www.dropbox.com/s/1pko14sc3qctzfr/final.mov?dl=0)
 
 ### Install term-a-llod on your machine
-if docker is not already installed in your machine, install docker (https://docs.docker.com/engine/install/).
-1. downlaod term-a-llod image using following command
+Install docker (if it does not already install in your machine)(https://docs.docker.com/engine/install/).
+1. Download the image of term-a-llod  
 ```
 docker pull elahi/term-a-llod:latest
 ```
-2. run the docker container on your machine
+2. Run the docker container on your machine
 ```
 docker run -p 8080:8080 -it elahi/term-a-llod:latest
 ```
-Go to home page at http://localhost:8080/status?view=status and the interface will be shown on your browser.
+Go to http://localhost:8080/status?view=status and the interface will be shown on your browser.
 
 ### Publish your terminology
-3. Publish your terminology using the following command. Here ,solar.tbx' is the terminology file and ,mappings.default' is the mapping file. Use your NameSpace in the url.
+3. Publish your terminology using the following command. Here solar.tbx is the terminology file and mappings.default is the mapping file. Use your NameSpace in the URL.
 ```
 curl -X POST --progress-bar \
     --verbose \
