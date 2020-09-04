@@ -44,6 +44,7 @@ c) Sparql: Click Sparql and query the term 'hole'
 ## Developers
 * **Mohammad Fazleh Elahi**
 * **Frank Grimm**
+## Supervisor
 * **Dr. Philipp Cimiano**
 
 
