@@ -26,11 +26,11 @@ curl -X POST --progress-bar \
     -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/YourNameSpace/' \
     "http://localhost:8080/initialize"
 ```
-a) Browser: Click the Browser button. The browser will open. You can Go to you can browse the terms in sorted alphabet order and see individual term details (by clicking the term).
+a) Browser: Click the Browser button. The browser will open. You can Go to you can browse the terms in sorted alphabet order and see individual term details (by clicking the term).\
 b) Sparql: Click the Sparql button and press the Query button for accessing the terminologies using SPARQL.
 
 ### Link your terminology
-4. Linking your terminology with other terminology. For example, we want to link it ,intaglio' terminology. Here https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql is sparql endpoint of the  terminology. 
+4.  Link your terminology with other terminology. For example, you want to link intaglio terminology with your terminology. The SPARQL endpoint of the intaglio terminology is https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql 
 ```
 curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql" \
           -H "Content-Type: application/x-www-form-urlencoded" \
