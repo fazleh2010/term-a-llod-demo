@@ -4,7 +4,7 @@ This page provides instructions on how to run the term-a-llod tool to publish an
 [<img src="https://github.com/fazleh2010/term-a-llod-demo/blob/master/term-a-llod.png" width="50%">](https://www.dropbox.com/s/1pko14sc3qctzfr/final.mov?dl=0)
 
 ### Install term-a-llod on your machine
-Install docker (if it does not already install in your machine)(https://docs.docker.com/engine/install/).
+Install docker (https://docs.docker.com/engine/install/)
 1. Download the image of term-a-llod  
 ```
 docker pull elahi/term-a-llod:latest
