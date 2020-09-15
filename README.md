@@ -5,11 +5,11 @@ This page provides instructions on how to run the term-a-llod tool to publish an
 
 ### Install term-a-llod on your machine
 Install docker (https://docs.docker.com/engine/install/)
-1. Download the image of term-a-llod  
+1. Download the image of term-a-llod. 
 ```
 docker pull elahi/term-a-llod:latest
 ```
-2. Run the image as a container
+2. Run the image as a container.
 ```
 docker run -p 8080:8080 -it elahi/term-a-llod:latest
 ```
