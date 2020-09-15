@@ -16,7 +16,7 @@ docker run -p 8080:8080 -it elahi/term-a-llod:latest
 Go to http://localhost:8080/status?view=status and the interface will be shown on your browser.
 
 ### Publish your terminology
-3. Run the following command. Here, solar.tbx is the terminology file & mappings.default is the mapping file
+3. Run the following command. Here, *solar.tbx* is the terminology file & *mappings.default* is the mapping file
 ```
 curl -X POST --progress-bar \
     --verbose \
@@ -26,21 +26,21 @@ curl -X POST --progress-bar \
     -F 'datanamespace=http://tbx2rdf.lider-project.eu/data/YourNameSpace/' \
     "http://localhost:8080/initialize"
 ```
-- Browser: Click the **Browser** button.  You can see the terms in sorted alphabet order.  The detail of a term can be seen by clicking it. \
+- Browser: Click the **Browser** button.  You can see the terms in sorted order.  The detail of a term can be seen by clicking it. \
 - Sparql:  Click the **Sparql** button. You can access your terminology through the SPARQL query.
 
 ### Link your terminology with other terminology
 4.  Run the following command. 
-- Here, the other terminology is intaglio terminology (https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql)
+- Here, the other terminology is *intaglio terminology* (https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql)
 ```
 curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql" \
           -H "Content-Type: application/x-www-form-urlencoded" \
           -X POST "http://localhost:8080/link"      
  ```
 For example, *hole* is a term that exists both in your terminology and other terminology. To view the link do the followings: \
-- Browser: Click **Browser** and select alphabet pair **G_H** and then click the term **hole**. \
-- Auto-completion search: Click **Terms** and type 'ho'.\
-- Sparql: Click **Sparql** and write the query for the term *hole* and then Click **Query**
+- Browser: Click **Browser** button. Select alphabet pair **G_H** and then click the term **hole**. \
+- Auto-completion search: Click **Terms** button and type 'ho'.\
+- Sparql: Click **Sparql** button. Write the query for the term *hole* and then Click **Query** button
 
 ## Developers
 * **Mohammad Fazleh Elahi**
