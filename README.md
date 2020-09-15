@@ -17,8 +17,8 @@ Go to http://localhost:8080/status?view=status and the interface will be shown o
 
 ### Publish your terminology
 3. Publish your terminology using the following command. Here \
-solar.tbx is the terminology file & \
-mappings.default is the mapping file
+- solar.tbx is the terminology file & \
+- mappings.default is the mapping file
 ```
 curl -X POST --progress-bar \
     --verbose \
