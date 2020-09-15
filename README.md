@@ -36,7 +36,7 @@ curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio
           -H "Content-Type: application/x-www-form-urlencoded" \
           -X POST "http://localhost:8080/link"      
  ```
-For example, *hole* is a term that exists both in your terminology and other terminology. To view the link do the followings: \
+For example, *hole* is a term that exists both in your terminology and other terminology. To view the link, do the followings: 
 - Browser: Click **Browser** button. Select alphabet pair **G_H** and then click the term **hole**. \
 - Auto-completion search: Click **Terms** button and type *ho*. Select the term *hole*. \
 - Sparql: Click **Sparql** button. Write the query for the term *hole* and then Click **Query** button.
