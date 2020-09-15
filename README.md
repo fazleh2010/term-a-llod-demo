@@ -32,8 +32,8 @@ a) Browser: Click the Browser button.  You can see the terms in sorted alphabet 
 b) Sparql:  Click the Sparql button. You can access your terminology through the SPARQL query.
 
 ### Link your terminology with other terminology
-4.  Run the following command. Here
-- the other terminology is intaglio terminology (https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql)
+4.  Run the following command. 
+- Here, the other terminology is intaglio terminology (https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql)
 ```
 curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql" \
           -H "Content-Type: application/x-www-form-urlencoded" \
