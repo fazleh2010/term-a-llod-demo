@@ -29,7 +29,7 @@ curl -X POST --progress-bar \
     "http://localhost:8080/initialize"
 ```
 a) Browser: Click the Browser button.  You can see the terms in sorted alphabet order.  The detail of a term can be seen by clicking it. \
-b) Sparql:  Click the Sparql button and then click the Query button for accessing your terminology through the SPARQL query.
+b) Sparql:  Click the Sparql button. You can access your terminology through the SPARQL query.
 
 ### Link your terminology
 4.  Link your terminology with other terminology. For example, you want to link intaglio terminology with your terminology. The SPARQL endpoint of the intaglio terminology is https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio/sparql 
