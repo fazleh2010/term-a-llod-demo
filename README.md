@@ -16,8 +16,9 @@ docker run -p 8080:8080 -it elahi/term-a-llod:latest
 Go to http://localhost:8080/status?view=status and the interface will be shown on your browser.
 
 ### Publish your terminology
-3. Publish your terminology using the following command.\ 
-Here solar.tbx is the terminology file and mappings.default is the mapping file. Use your NameSpace in the URL.
+3. Publish your terminology using the following command. Here \
+solar.tbx is the terminology file & 
+mappings.default is the mapping file.
 ```
 curl -X POST --progress-bar \
     --verbose \
