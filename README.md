@@ -9,7 +9,7 @@ Install docker (https://docs.docker.com/engine/install/)
 ```
 docker pull elahi/term-a-llod:latest
 ```
-2. Run the docker container on your machine
+2. Run the image as a container
 ```
 docker run -p 8080:8080 -it elahi/term-a-llod:latest
 ```
