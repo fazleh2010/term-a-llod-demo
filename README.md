@@ -16,7 +16,7 @@ docker run -p 8080:8080 -it elahi/term-a-llod:latest
 Go to http://localhost:8080/status?view=status and the interface will be shown on your browser.
 
 ### Publish your terminology
-3. Run the following command. Here, *solar.tbx* is the terminology file & *mappings.default* is the mapping file
+3. Run the following command. Here, *solar.tbx* is the terminology file & *mappings.default* is the mapping file.
 ```
 curl -X POST --progress-bar \
     --verbose \
@@ -39,8 +39,8 @@ curl -d "endpoint=https://webtentacle1.techfak.uni-bielefeld.de/tbx2rdf_intaglio
  ```
 For example, *hole* is a term that exists both in your terminology and other terminology. To view the link do the followings: \
 - Browser: Click **Browser** button. Select alphabet pair **G_H** and then click the term **hole**. \
-- Auto-completion search: Click **Terms** button and type 'ho'.\
-- Sparql: Click **Sparql** button. Write the query for the term *hole* and then Click **Query** button
+- Auto-completion search: Click **Terms** button and type *ho*. Select the term *hole*. \
+- Sparql: Click **Sparql** button. Write the query for the term *hole* and then Click **Query** button.
 
 ## Developers
 * **Mohammad Fazleh Elahi**
