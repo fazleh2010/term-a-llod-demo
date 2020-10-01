@@ -41,6 +41,7 @@ For example, *hole* is a term that exists both in your terminology and other ter
 - Auto-completion search: Click **Terms** button and type *ho*. Select the term *hole*. 
 - Sparql: Click **Sparql** button. Write the query for the term *hole* and then Click **Query** button.
 
+Please use the following citation:
 ```
 @inproceedings{Buono-LREC2020,
 	title = {{Terme-`a-LLOD: Simplifying the Conversion and Hosting of TerminologicalResources as Linked Data}},
