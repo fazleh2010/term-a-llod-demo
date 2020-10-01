@@ -45,7 +45,7 @@ For example, *hole* is a term that exists both in your terminology and other ter
 @inproceedings{Buono-LREC2020,
 	title = {{Terme-`a-LLOD: Simplifying the Conversion and Hosting of TerminologicalResources as Linked Data}},
 	author = {Maria Pia Di Buono, Philipp Cimiano, Mohammad Fazleh Elahi, Frank Grimm},
-	booktitle = {Proceedings of the 7th Workshop on Linked Data in Linguistics (LDL-2020) Language Resources and Evaluation Conference (LREC 2020)},
+	booktitle = {Proceedings of the 7th Workshop on Linked Data in Linguistics (LDL-2020) at Language Resources and Evaluation Conference (LREC 2020)},
 	pages = {28–35},
 	year = {2020},
 	location = {Marseille, France},
