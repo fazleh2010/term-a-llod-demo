@@ -42,15 +42,15 @@ For example, *hole* is a term that exists both in your terminology and other ter
 - Sparql: Click **Sparql** button. Write the query for the term *hole* and then Click **Query** button.
 
 ```
-@inproceedings{TUD-CS-2017-0119,
-	title = {{Context-Aware Representations for Knowledge Base Relation Extraction}},
-	author = {Sorokin, Daniil and Gurevych, Iryna},
-	booktitle = {Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
-	pages = {1784-1789},
-	year = {2017},
-	location = {Copenhagen, Denmark},
+@inproceedings{Buono-LREC2020,
+	title = {{Terme-`a-LLOD: Simplifying the Conversion and Hosting of TerminologicalResources as Linked Data}},
+	author = {Maria Pia Di Buono, Philipp Cimiano, Mohammad Fazleh Elahi, Frank Grimm},
+	booktitle = {Proceedings of the 7th Workshop on Linked Data in Linguistics (LDL-2020) Language Resources and Evaluation Conference (LREC 2020)},
+	pages = {28–35},
+	year = {2020},
+	location = {Marseille, France},
 	publisher = {Association for Computational Linguistics},
-	doi = {10.18653/v1/D17-1188}
+	link = {https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/LDL2020book.pdf}
 }
 ```
 
