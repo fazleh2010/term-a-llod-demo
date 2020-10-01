@@ -41,6 +41,19 @@ For example, *hole* is a term that exists both in your terminology and other ter
 - Auto-completion search: Click **Terms** button and type *ho*. Select the term *hole*. 
 - Sparql: Click **Sparql** button. Write the query for the term *hole* and then Click **Query** button.
 
+```
+@inproceedings{TUD-CS-2017-0119,
+	title = {{Context-Aware Representations for Knowledge Base Relation Extraction}},
+	author = {Sorokin, Daniil and Gurevych, Iryna},
+	booktitle = {Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+	pages = {1784-1789},
+	year = {2017},
+	location = {Copenhagen, Denmark},
+	publisher = {Association for Computational Linguistics},
+	doi = {10.18653/v1/D17-1188}
+}
+```
+
 ## Developers
 * **Mohammad Fazleh Elahi**
 * **Frank Grimm**
