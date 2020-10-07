@@ -59,7 +59,8 @@ Please use the following citation:
 * **Mohammad Fazleh Elahi**
 * **Frank Grimm**
 ## Supervisor
-* **Maria Pia Di Buono and Dr. Philipp Cimiano*  
+* **Maria Pia Di Buono**
+* **Dr. Philipp Cimiano*  
 
 
 
