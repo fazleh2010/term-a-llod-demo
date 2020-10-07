@@ -60,7 +60,7 @@ Please use the following citation:
 * **Frank Grimm**
 ## Supervisor
 * **Maria Pia Di Buono**
-* **Dr. Philipp Cimiano*  
+* **Dr. Philipp Cimiano**  
 
 
 
