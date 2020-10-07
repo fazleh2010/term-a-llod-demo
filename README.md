@@ -58,7 +58,7 @@ Please use the following citation:
 ## Developers
 * **Mohammad Fazleh Elahi**
 * **Frank Grimm**
-## Supervisor
+## Supervisors
 * **Maria Pia Di Buono**
 * **Dr. Philipp Cimiano**  
 
